@@ -13,6 +13,7 @@ public class AnnotationsTest
 	@Test
 	public void LaunchBrowser() 
 	{
+		System.out.println("Browser Started");
 		System.setProperty("webdriver.chrome.driver", driverPath);
 		driver = new ChromeDriver();
 		driver.get("http://www.google.com");
